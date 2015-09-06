@@ -1,4 +1,4 @@
-angular.module('app', ['ionic'])
+angular.module('app', ['ionic', 'calculator'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -16,9 +16,10 @@ angular.module('app', ['ionic'])
     // Set up the various states which the app can be in.
     // Each state's controller can be found in controllers.js
     $stateProvider
-    .state('page1', {
+    .state('calculator', {
         url: '',
-        templateUrl: 'page1.html'
+        templateUrl: 'templates/calculator.html',
+        controller: 'CalculatorCtrl'
     });
 
     // if none of the above states are matched, use this as the fallback
