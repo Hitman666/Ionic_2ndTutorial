@@ -2,6 +2,4 @@
 
 ![](Calculator.png)
 
-The link to the tutorial will be published here once its available publically.
-
-You can check out the [live example](http://nikola-dev.com/IonicCalculator/mobile.html) of this application.
+Tutorial written for Pluralsight: [http://tutorials.pluralsight.com/front-end-javascript/ionic-framework-a-definitive-10-000-word-guide](http://tutorials.pluralsight.com/front-end-javascript/ionic-framework-a-definitive-10-000-word-guide).
